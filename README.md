@@ -3,9 +3,13 @@ A simple yet engaging Tic Tac Toe game built using HTML, CSS, and JavaScript. Th
 
 1.Features 🚀
 -> Interactive Gameplay: Two players can alternate between "X" and "O".
+
 -> Win Detection: Highlights the winning combination and declares the winner.
+
 -> Draw Condition: Detects and displays when the game ends in a draw.
+
 -> Reset Button: Resets the game board for a fresh start.
+
 
 2.How to Run 🛠️
 -> Download the repository.
