@@ -75,3 +75,54 @@ i{
     width: 34px; 
     height: 34px;
 }
+
+@media (max-width: 768px) {
+    .name {
+        width: 80%;
+        height: auto;
+        font-size: 20px;
+        padding: 10px 0;
+    }
+
+    .main-div {
+        grid-template-columns: repeat(3, 70px);
+        padding: 15px;
+        gap: 6px;
+    }
+
+    button {
+        width: 70px;
+        height: 70px;
+        font-size: 24px;
+    }
+
+    .result {
+        width: 60%;
+        height: auto;
+        font-size: 16px;
+        padding: 10px 0;
+    }
+
+    .reset-button #reset-game {
+        font-size: 26px;
+        bottom: 200px;
+        left: 140px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-div {
+        grid-template-columns: repeat(3, 60px);
+    }
+
+    button {
+        width: 60px;
+        height: 60px;
+        font-size: 20px;
+    }
+
+    .reset-button #reset-game {
+        left: 110px;
+        bottom: 180px;
+    }
+}
