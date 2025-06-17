@@ -105,8 +105,8 @@ i{
 
     .reset-button #reset-game {
         font-size: 26px;
-        bottom: 200px;
-        left: 140px;
+        bottom: 180px;
+        left: 120px;
     }
 }
 
@@ -122,7 +122,8 @@ i{
     }
 
     .reset-button #reset-game {
-        left: 110px;
-        bottom: 180px;
+        bottom: 160px;
+        left: 100px;
     }
 }
+
