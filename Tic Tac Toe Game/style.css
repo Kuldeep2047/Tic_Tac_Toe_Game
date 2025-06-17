@@ -80,33 +80,42 @@ i{
     .name {
         width: 80%;
         height: auto;
-        font-size: 20px;
+        font-size: 22px;
         padding: 10px 0;
+        bottom: 20px;
     }
 
     .main-div {
         grid-template-columns: repeat(3, 70px);
-        padding: 15px;
+        padding: 10px;
         gap: 6px;
     }
 
     button {
-        width: 70px;
         height: 70px;
+        width: 70px;
         font-size: 24px;
     }
 
     .result {
         width: 60%;
         height: auto;
-        font-size: 16px;
+        font-size: 18px;
         padding: 10px 0;
+        top: 10px;
+    }
+
+    .reset-button {
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 999;
     }
 
     .reset-button #reset-game {
-        font-size: 26px;
-        bottom: 180px;
-        left: 120px;
+        position: static;
+        font-size: 28px;
     }
 }
 
@@ -116,14 +125,12 @@ i{
     }
 
     button {
-        width: 60px;
         height: 60px;
+        width: 60px;
         font-size: 20px;
     }
 
     .reset-button #reset-game {
-        bottom: 160px;
-        left: 100px;
+        font-size: 26px;
     }
 }
-
